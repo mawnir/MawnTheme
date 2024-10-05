@@ -272,8 +272,8 @@ body {
 }
 
 body {
-	--red-graphite-interface-font: "Avenir";
-	--red-graphite-text-font: "Avenir";
+	/* --red-graphite-interface-font: "Avenir";
+	--red-graphite-text-font: "Avenir"; */
 	--red-graphite-monospace-font: "";
 	--font-interface-override: var(--red-graphite-interface-font);
 	--font-text-override: var(--red-graphite-text-font);
@@ -659,7 +659,7 @@ body {
 /*# sourceMappingURL=red-graphite.min.css.map */
 /* @settings
 
-name: Red Graphite
+name: Mawn Theme
 id: red-graphite
 settings:
 

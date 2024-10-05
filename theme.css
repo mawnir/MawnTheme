@@ -789,3 +789,7 @@ body {
 body:not(.is-grabbing) .tree-item-self.is-clickable:hover {
 	font-weight: 700;
 }
+
+.is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+	color: var(--interactive-accent);
+}

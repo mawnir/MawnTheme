@@ -783,7 +783,11 @@ body {
 .nav-folder-title {
 	font-weight: 700;
 	font-size: medium;
+}
 
+.nav-folder {
+	background-color: rgb(53, 53, 53);
+	border-radius: 4px;
 }
 
 body:not(.is-grabbing) .tree-item-self.is-clickable:hover {

@@ -782,7 +782,8 @@ body {
 
 .nav-folder-title {
 	font-weight: 700;
-	font-size: medium;
+	/* font-size: medium; */
+	font-size: large;
 }
 
 .nav-folder {
@@ -796,4 +797,9 @@ body:not(.is-grabbing) .tree-item-self.is-clickable:hover {
 
 .is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
 	color: var(--interactive-accent);
+}
+
+.tree-item-self.is-being-renamed:focus-within {
+	color: #94b8d8;
+	caret-color: #85a9d8;
 }

@@ -777,7 +777,13 @@ body {
 }
 
 .is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
-	color: #000;
+	color: rgb(179, 179, 179);
+}
+
+.mod-left-split .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.mod-right-split {
+	/* color: var(--icon-color-focused); */
+	color: rgb(179, 179, 179);
 }
 
 .nav-folder-title {
@@ -787,16 +793,12 @@ body {
 }
 
 .nav-folder {
-	background-color: rgb(53, 53, 53);
+	background-color: rgb(65, 65, 65);
 	border-radius: 4px;
 }
 
 body:not(.is-grabbing) .tree-item-self.is-clickable:hover {
 	font-weight: 700;
-}
-
-.is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
-	color: var(--interactive-accent);
 }
 
 .tree-item-self.is-being-renamed:focus-within {

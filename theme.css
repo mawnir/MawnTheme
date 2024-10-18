@@ -714,6 +714,18 @@ settings:
   description: Font used for monospace text
   type: variable-text
   default: ''
+
+- id: red-graphite-sizes
+  title: Sizes
+  type: heading
+  level: 2
+  collapsed: false
+
+- id: red-graphite-folder-size
+  title: Folder size
+  description: Font size for folder names. options-- small, medium, large, x-large, xxx-large;
+  type: variable-text
+  default: ''
 */
 
 /* .theme-light,
@@ -787,9 +799,11 @@ body {
 }
 
 .nav-folder-title {
-	font-weight: 700;
+	font-weight: 800;
 	/* font-size: medium; */
-	font-size: large;
+	font-size: var(--red-graphite-folder-size);
+	/* small, medium, large, x-large, xxx-large */
+
 }
 
 .nav-folder {
